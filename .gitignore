@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore dataset and model weights
+dataset/
+models/
+
+# Ignore Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.csv
+
+# Ignore large files
+*.h5
+*.tflite
